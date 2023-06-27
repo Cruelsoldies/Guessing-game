@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+:root {
+  font-size: 1.6rem;
+  --bg-button: var(#7879F1);
+  --color-text-h1: var(#34355B);
+}
