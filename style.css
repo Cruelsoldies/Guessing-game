@@ -10,7 +10,10 @@
   --bg-color-white: #ffff;
   --bg-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
   --bg-button: #7879F1;
+  --bg-button-hover: #6060e2;
+  --bg-input: #DCE2E9;
   --color-text-strong:#34355B;
+  --text-color-white: #ffff;
   --text-h1: Montserrat;
   --text-size:DM sans;
 }
@@ -25,10 +28,11 @@ body {
 .mainOne {
   margin: 0 auto;
   width: min(42.8rem, 90%);
+  height: 27rem;
   /*color and position*/
   padding: 4.8rem 6.4rem 4.8rem 6.4rem;
   background: var(--bg-color-white);
-  border: .6rem;
+  border-radius: .6rem;
   box-shadow: var(--bg-shadow);
   /*adjust of objects*/
   display: flex;
@@ -49,4 +53,38 @@ body {
 .contents p {
   font-family: var(--text-size);
   color: var(--color-text-strong);
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*input content*/
+input {
+  width: 5.5rem;
+  height: 5.3rem;
+  padding: 1.6rem;
+  background: var(--bg-input);
+  border: none;
+  border-radius: .4rem 0rem 0rem .4rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+button {
+  width: 8.2rem;
+  height: 5.3rem;
+  border-radius: 0rem .4rem .4rem 0rem;
+  border: none;
+  background-color: var(--bg-button);
+  padding: 1.6rem;
+
+  color: var(--text-color-white);
+  font-size: 1..6rem;
+  font-family: var(--text-size);
+  font-weight: 700;
+  text-align: center;
+
+}
+button:hover {
+  background: var(--bg-button-hover);
 }
