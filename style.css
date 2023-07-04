@@ -82,7 +82,7 @@ input {
   font-family: DM Sans;
   font-weight: 400;
 }
-.buttonOne{
+.screenOne button{
   display: flex;
   justify-content: center;
   padding:1.6rem;
@@ -108,7 +108,7 @@ input {
   line-height: 150%;
   margin-bottom: 3.3rem;
 }
-.buttonTwo {
+.screenTwo button {
   display: flex;
   border: none;
   background-color: var(--bg-button);
